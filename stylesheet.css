@@ -1,0 +1,129 @@
+body {
+    background-color: #4aa1a9;
+    margin: 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: "Sans-serif";
+    color: #ffffff;
+    padding: 0;
+}
+
+.body2 {
+    background-color: #ffffff;
+    margin-top: 10px;
+    text-align: left;
+    background-repeat: no-repeat;
+    font-family: "Sans-serif";
+    padding: 10px;
+}
+
+p {
+    font-size: 22px;
+    color: #ffffff;
+    
+}
+
+.pl {
+    font-size: 27px;
+    color: #000000;
+    font-family: "Sans-serif";
+}
+/* index start here */
+.header {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/* index ends here */
+/*horizontal nav starts here*/
+.nav {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color:#ff8a50;
+}
+
+    .nav a {
+        display: block;
+        background-color: #ff8a50;
+        color: #4aa1a9;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+
+    .nav li {
+        float: left;
+    }
+
+    .nav a:hover {
+        background-color: #dfc7c1;
+    }
+
+.active_nav {
+    background-color: #dfc7c1;
+}
+/*nav ends here*/
+span {
+    font-style: italic;
+}
+
+table {
+    font-size: 15px;
+    color: black;
+}
+.page_heading {
+    font-size: 70px;
+    text-align: center;
+}
+
+
+.content_heading {
+    font-size: 30px;
+}
+
+.img {
+    display: block;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 500px;
+    object-fit: scale-down;
+}
+
+.content {
+    padding: 10px;
+}
+
+.footer {
+    color: #84b4c8;
+    text-align: center;
+    font-family: "Courier New";
+    width: 100%;
+    bottom: 0;
+}
+
+#ulist {
+    color:#a94a4a;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    float: right;
+   width: 80px;
+   height: 80px;
+}
+
+h1{
+    text-align: center;
+    color: #ff8a50;
+}
